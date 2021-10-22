@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: white;
+    background: linear-gradient(90deg, #2B86C5, #773da5);
+    font-family: sans-serif;
+    line-height: 1.75;
+  }
+  
+  
+  .form{
+    background: #2b2b2b;
+    padding: 20px;
+    border-radius: 5px;
+    width: 800px;
+    margin: auto;
+  }
+  
+  #devices-used-others{
+    width: 200px;
+    height: auto;
+  }
+  
+  label, textarea[placeholder], button, p.label{
+    font-size: 20px;
+  }
+  
+  input,select{
+    width: 780px;
+    height: 25px;
+  }
+  input[type="checkbox"]{
+    width: 100px;
+  }
+  
+  #title{
+    text-align: center;
+  }
+  
+  #description{
+    text-align: center;
+  }
+  
+  textarea{
+    width: 780px;
+    height: 100px;
+  }
+  
+  button{
+    background: #58d66d;
+    display: block;
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+  }
+  
+  input[type="radio"]{
+    width: 10px;;
+  }

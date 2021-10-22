@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <h1 id="title">University Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <div class="form">
+            <form id="survey-form">
+                <div>
+                    <label for="name" id="name-label">Name</label>
+                    <br>
+                    <input type="text" placeholder="Please enter your name" name="name" id="name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email" id="email-label">Email</label>
+                    <br>
+                    <input type="email" placeholder="Please enter your Email" name="email" id="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="number" id="number-label">Age (optional)</label>
+                    <br>
+                    <input type="number" placeholder="Age" name="number" id="number" min="1" max="120">
+                </div>
+                <br>
+                <div>
+                    <label for="role">Which option best describes your current role?</label>
+                    <br>
+                    <select name="role" id="dropdown">
+                        <option default>Select an option</option>
+                        <option value="student">Student</student>
+                        <option value="professional">Professional</option>
+                        <option value="part-time">Part-Time Worker</option>
+                        <option value="undeclared">Prefer Not To Say</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Would you recommend our university?</label>
+                        <br>
+            <input type="radio" name="user-recommend" id="definitely" value="definitely" checked>
+            <label for="definitely">Definitely</label>
+            <br>
+            <input type="radio" name="user-recommend" id="maybe" value="maybe">
+            <label for="maybe">Maybe</label>
+            <br>
+            <input type="radio" name="user-recommend" id="not_sure" value="not-sure">
+            <label for="not_sure">Not Sure</label>
+        </div>
+        <br>
+        <label for="devices-used">What are the devices you used?</label>
+        <br>
+        <div>
+            <label><input type="checkbox" value="smartphone">Smartphone</label>
+            <br>
+            <label><input type="checkbox" value="laptop/pc">Laptop/PC</label>
+            <br>
+            <label><input type="checkbox" value="table/ipad">Tablet/Ipad</label>
+            <br>
+            <label for="devices-used-others"><input type="checkbox" value="others">Others:</label>
+            <input type="text" id="devices-used-others" id="devices-used-others" name="devices-used-others">
+        </div>
+        <br>
+        <div>
+            <label for="suggestions">Any comments or suggestions?</label>
+            <br>
+            <textarea id="comments" placeholder="Enter your comments here"></textarea>
+        </div>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>l
