@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#video{
+  display: none;
+}
+
+img#header-img{
+  width: 5.5em;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #ecf0f1;
+}
+
+li, a{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1 rem;
+  color: black;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecf0f1;
+  height: 6em;
+  position: sticky;
+  top: 0;
+  padding-right: 2em;
+}
+
+#header-img{
+  cursor: pointer;
+}
+
+#header nav ul{
+  list-style: none;
+}
+
+header img{
+  padding: 1em 0 1em 5em;
+}
+
+nav li{
+  display: inline-block;
+  padding: 0 1.5em;
+}
+
+.nav-link li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover{
+  color: #e84393;
+}
+
+section#subscription{
+  margin-top: 2em;
+  text-align: center;
+  line-height: 4rem;
+}
+
+section#subscription input{
+  height: 2em;
+  width: 18em;
+  padding: 0.4em;
+}
+
+section#subscription #submit{
+  margin-top: 1em;
+  font-weight: bold;
+  border: none;
+  background-color: #fd79a8;
+  text-transform: uppercase;
+  height: 2.5rem;
+  width: 12rem;
+  transition: all 0.3s ease 0s;
+}
+
+section#subscription #submit:hover{
+  background-color: #e84393;
+  cursor: pointer;
+}
+
+#product-features{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 1em;
+  margin: 2em 15em;
+  grid-row-gap: 4em;
+}
+
+section#reviews{
+  text-align: center;
+  line-height: 1.75rem;
+  margin: 4em 15em;
+}
+
+section#reviews p{
+  margin: 0.75em 0 0 0;
+  text-align: justify;
+}
+
+section#reviews p.customer-name{
+  text-align: right;
+}
+
+section#pricing{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1em;
+  margin: 2em 15em;    
+  grid-gap: 1rem;
+}
+
+.box-pricing{
+    border: #333 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+.price{
+    padding: 1em;
+    background-color: #d1d1d1;
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.price2{
+    padding: 1rem;
+}
+
+button.select{
+  background-color: #fd79a8;
+  text-transform: uppercase;
+  font-weight: 545;
+  padding: 1em;
+  margin: 1em 0 0 0;
+  border: none;
+  cursor: pointer;
+}
+
+button.select:hover{
+  transition: all 0.3s ease 0s;
+  color: white;
+  background-color: #e84393;
+}
+
+footer ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+footer{
+  background-color: #d1d1d1;
+  margin: 0 15em;
+  text-align: right;
+  padding: 1em;
+  line-height: 1.5rem;
+}
+
+footer ul li{
+  padding: 0 0.5em;
+}
+
+footer ul a:hover{
+  transition: all 0.3s ease 0s;
+  color: #e84393;
+}
+
+footer span{
+  font-weight: 100;
+  color: #3b3b3b;
+  font-size: 0.875rem;
+}
+
+.icons i{
+  color: #ee55a7;
+  font-size: 3.5rem;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px){
+
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    margin-left: 2.5em;
+  }
+
+  header img{
+    padding: 1em;
+  }
+
+  header nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+
+  header nav ul li{
+    margin-bottom: 0.5em;
+  }
+
+  .container{
+    margin-top: 8em;
+  }
+
+  section#subscription{
+    margin-bottom: 4em;
+  }
+
+  section#product-features{
+    margin: 2em 1em;
+  }
+
+  section#reviews{
+    margin: 2em 4em;
+  }
+
+  section#pricing{
+    margin: 2em 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-pricing{
+    width: 90%;
+    max-width: 350px;
+    margin: 1em 0;
+  }
+
+  footer{
+    margin: 0;
+  }
+}
