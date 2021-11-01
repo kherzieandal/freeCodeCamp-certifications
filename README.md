@@ -1,4 +1,6 @@
 # freeCodeCamp Certifications
+Projects I've created from different freeCodeCamp Certifications
+
 ## Responsive Web Design Certification
 Projects I've created from freeCodeCamp's Responsive Web Design Certification. Click <a href="https://www.freecodecamp.org/certification/kherzieandal/responsive-web-design">here</a> to view.
 1. Tribute Page
