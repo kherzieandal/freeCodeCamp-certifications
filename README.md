@@ -1,5 +1,8 @@
 # freeCodeCamp Certifications
-Projects I've created from different freeCodeCamp Certifications
+Projects I've created from different freeCodeCamp Certifications:
+- Data Analysis with Python Certification
+- Scientific Computing with Python Certification
+- Responsive Web Design Certification
 
 ## Responsive Web Design Certification
 Projects I've created from freeCodeCamp's Responsive Web Design Certification. Click <a href="https://www.freecodecamp.org/certification/kherzieandal/responsive-web-design">here</a> to view.
